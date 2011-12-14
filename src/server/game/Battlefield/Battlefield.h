@@ -356,7 +356,7 @@ protected:
     uint32 m_BattleTime;                                    // Length of a battle
     uint32 m_NoWarBattleTime;                               // Time between two battles
     uint32 m_RestartAfterCrash;                             // Delay to restart Wintergrasp if the server crashed during a running battle.
-    uint32 m_TimeForAcceptInvite;
+    uint64 m_TimeForAcceptInvite;
     uint32 m_uiKickDontAcceptTimer;
     WorldLocation KickPosition;                             // Position where player is teleport if they switch to afk during battle or if they dont accept invitation
 

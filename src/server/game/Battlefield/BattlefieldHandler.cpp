@@ -31,7 +31,7 @@
 //Param1:(BattleId) the BattleId of Bf
 //Param2:(ZoneId) the zone where the battle is (4197 for wg)
 //Param3:(time) Time in second that the player have for accept
-void WorldSession::SendBfInvitePlayerToWar(uint32 BattleId, uint32 ZoneId, uint32 p_time)
+void WorldSession::SendBfInvitePlayerToWar(uint32 BattleId, uint32 ZoneId, uint64 p_time)
 {
     //Send packet
     WorldPacket data(SMSG_BATTLEFIELD_MGR_ENTRY_INVITE, 12);

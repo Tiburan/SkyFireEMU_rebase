@@ -792,7 +792,7 @@ class WorldSession
         void HandleInstanceLockResponse(WorldPacket& recvPacket);
 
         // Battlefield
-        void SendBfInvitePlayerToWar(uint32 BattleId,uint32 ZoneId,uint32 time);
+        void SendBfInvitePlayerToWar(uint64 BattleId, uint32 ZoneId, uint64 time);
         void SendBfInvitePlayerToQueue(uint32 BattleId);
         void SendBfQueueInviteResponce(uint32 BattleId,uint32 ZoneId);
         void SendBfEntered(uint32 BattleId);

@@ -656,6 +656,7 @@ void AddSC_zangarmarsh();
 // Maelstrome
 void AddSC_deepholm();
 void AddSC_kezan();
+void AddSC_tol_barad();
 
 // battlegrounds
 
@@ -685,7 +686,7 @@ void AddScripts()
     AddKalimdorScripts();
     AddOutlandScripts();
     AddNorthrendScripts();
-    AddMaelstromeScripts();
+    AddMaelstromScripts();
     AddBattlegroundScripts();
     AddOutdoorPvPScripts();
     AddCustomScripts();
@@ -1350,11 +1351,12 @@ void AddNorthrendScripts()
 #endif
 }
 
-void AddMaelstromeScripts()
+void AddMaelstromScripts()
 {
 #ifdef SCRIPTS
     AddSC_deepholm();
-	AddSC_kezan();
+    AddSC_kezan();
+    AddSC_tol_barad();	
 #endif
 }
 
